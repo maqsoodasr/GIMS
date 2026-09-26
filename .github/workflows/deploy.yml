@@ -31,9 +31,7 @@ jobs:
         run: npm ci || npm install
 
       - name: Build Vite App
-        run: |
-          npm run build
-          cp dist/index.html dist/404.html
+        run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
