@@ -149,7 +149,7 @@ export const GimsLogo: React.FC<GimsLogoProps> = ({
       <div className={`relative shrink-0 ${selectedSizeClass} flex items-center justify-center`}>
         {!imgError ? (
           <img
-            src="/logo1.png"
+            src={`${import.meta.env.BASE_URL}logo1.png`}
             alt="GIMS Gambat Official Emblem"
             className="w-full h-full object-contain"
             referrerPolicy="no-referrer"
