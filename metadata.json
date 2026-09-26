@@ -1,0 +1,6 @@
+{
+  "name": "GIMS - Gambat Institute of Medical Sciences",
+  "description": "Official portal and international healthcare platform for Pir Abdul Qadir Shah Jeelani Institute of Medical Sciences (PAQSJIMS / GIMS) Gambat — featuring free organ transplant centers, Gambat Medical College, online OPD booking, lab reports verification, and specialized clinical departments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
